@@ -664,10 +664,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 397084514}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: AdamConvo1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: selectedDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 25efd848364593a4a9d22d09092fc623,
+        type: 2}
+    - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Test Barks
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986386, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: overrideName
       value: Adam
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986387, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: actor
+      value: Adam
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986387, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: persistentDataName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986398, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
@@ -4054,7 +4080,8 @@ PrefabInstance:
     - target: {fileID: 11426072, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
       propertyPath: initialDatabase
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 25efd848364593a4a9d22d09092fc623,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58ac37417e60e534f91138088a3e6f70, type: 3}
 --- !u!1001 &1167546624
