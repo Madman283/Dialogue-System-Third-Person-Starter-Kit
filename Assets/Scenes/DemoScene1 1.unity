@@ -678,7 +678,7 @@ PrefabInstance:
     - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: conversation
-      value: Test Barks
+      value: Barks
       objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986386, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
@@ -2337,6 +2337,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1338995100}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Test Conversation
+      objectReference: {fileID: 0}
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: selectedDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 25efd848364593a4a9d22d09092fc623,
+        type: 2}
+    - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Barks
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986386, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: overrideName
@@ -4653,6 +4669,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1946061692}
     m_Modifications:
+    - target: {fileID: 3594191103014986384, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: selectedDatabase
+      value: 
+      objectReference: {fileID: 11400000, guid: 25efd848364593a4a9d22d09092fc623,
+        type: 2}
+    - target: {fileID: 3594191103014986385, guid: ea40c9261eaf03644a723872fdbf2d9f,
+        type: 3}
+      propertyPath: conversation
+      value: Barks
+      objectReference: {fileID: 0}
     - target: {fileID: 3594191103014986386, guid: ea40c9261eaf03644a723872fdbf2d9f,
         type: 3}
       propertyPath: overrideName
