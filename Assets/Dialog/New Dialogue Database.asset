@@ -3951,7 +3951,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: CurrentQuestState("Ask Mark about Task") == "active"
-      userScript: 
+      userScript: 'SetQuestState("Ask Mark about Task", "success");
+
+        ShowAlert("Quest
+        State Updated")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
