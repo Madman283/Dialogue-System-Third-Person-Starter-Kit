@@ -123,7 +123,231 @@ MonoBehaviour:
     spritePortrait: {fileID: 0}
     alternatePortraits: []
     spritePortraits: []
-  items: []
+  items:
+  - id: 1
+    fields:
+    - title: Name
+      value: Find Lu
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: See what Lu wants.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: PostCompletionBridgeConversationKey
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: CharacterToSave
+      value: 
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: PostCompletionBridgeBark
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: PlayerIsRequiredToTalkToCaptainAfter
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Priority
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+  - id: 2
+    fields:
+    - title: Name
+      value: Talk to Mark
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Talk to your friend from across the hall.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: active
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: PostCompletionBridgeConversationKey
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: CharacterToSave
+      value: 
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: PostCompletionBridgeBark
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: PlayerIsRequiredToTalkToCaptainAfter
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Priority
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Go across the hall
+      type: 0
+      typeString: 
+  - id: 4
+    fields:
+    - title: Name
+      value: Check out the FBot
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Go find this FBot in the main hall.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: PostCompletionBridgeConversationKey
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: CharacterToSave
+      value: 
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: PostCompletionBridgeBark
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: PlayerIsRequiredToTalkToCaptainAfter
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Priority
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Trackable
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 1
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Talk to FBot
+      type: 0
+      typeString: 
+  - id: 5
+    fields:
+    - title: Name
+      value: Meet with Lu
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Description
+      value: Go upstairs to find Lu's place
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
+    - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: PostCompletionBridgeConversationKey
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: CharacterToSave
+      value: 
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: PostCompletionBridgeBark
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: PlayerIsRequiredToTalkToCaptainAfter
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Priority
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
   locations: []
   variables:
   - id: 1
@@ -340,7 +564,10 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestState("Check out the FBot", "success");
+
+        ShowAlert("Quest
+        State Updated")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -946,8 +1173,8 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: On a different subject, you have a request to meet will Mike Ty-son.
-          You can meet with him via these stairs to the right of me.
+        value: On a different subject, you have a request to meet with Lu. You can
+          meet with him via these stairs to the right of me.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -1749,19 +1976,22 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestState("Find Lu", "active");
+
+        ShowAlert("Quest
+        State Updated")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 246.69788
-        y: 523
+        x: 244.81107
+        y: 523.94336
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 112.3967}
-    canvasZoom: 1.2099998
+    canvasScrollPosition: {x: 0, y: 186.84222}
+    canvasZoom: 1.06
   - id: 2
     fields:
     - title: Title
@@ -2289,14 +2519,17 @@ MonoBehaviour:
         isConnector: 0
         priority: 2
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestState("Talk to Mark", "success");
+
+        ShowAlert("Quest
+        State Updated!")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 46
-        y: 101
+        x: 41.87628
+        y: 103.06186
         width: 160
         height: 30
     - id: 2
@@ -2326,7 +2559,7 @@ MonoBehaviour:
         type: 0
         typeString: CustomFieldType_Text
       - title: Dialogue Text
-        value: As good as I can considering this crisis.
+        value: Im doing well, but it could be better.
         type: 0
         typeString: CustomFieldType_Text
       - title: Parenthetical
@@ -2438,7 +2671,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 224
+        x: 222.96909
         y: 151
         width: 160
         height: 30
@@ -2542,7 +2775,7 @@ MonoBehaviour:
         typeString: CustomFieldType_Text
       - title: Dialogue Text
         value: Yeah I get it. All these new government agents rolling in have been
-          putting me on edge. I can't get caught selling my "stuff". The governemtn
+          putting me on edge. I can't get caught selling my "stuff". The government
           is very strict these days and won't hesitate to make you a "FBot".
         type: 0
         typeString: CustomFieldType_Text
@@ -2654,7 +2887,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 46
+        x: 44.96907
         y: 251
         width: 160
         height: 30
@@ -2712,88 +2945,19 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 7
-        destinationConversationID: 3
-        destinationDialogueID: 8
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 46
-        y: 301
-        width: 160
-        height: 30
-    - id: 8
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 4
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: Alright, well then Ill head out. This better not be another one of
-          your pranks.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: 
+      userScript: 'SetQuestState("Check out the FBot", "active");
+
+        ShowAlert("Quest
+        State Updated.")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 46
-        y: 351
+        x: 35.69072
+        y: 311.3093
         width: 160
         height: 30
     - id: 9
@@ -3064,77 +3228,6 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 3
-        originDialogueID: 12
-        destinationConversationID: 3
-        destinationDialogueID: 13
-        isConnector: 0
-        priority: 2
-      conditionsString: 
-      userScript: 
-      onExecute:
-        m_PersistentCalls:
-          m_Calls: []
-      canvasRect:
-        serializedVersion: 2
-        x: 226
-        y: 351
-        width: 160
-        height: 30
-    - id: 13
-      fields:
-      - title: Title
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Pictures
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Description
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Actor
-        value: 4
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Conversant
-        value: 1
-        type: 5
-        typeString: CustomFieldType_Actor
-      - title: Menu Text
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Dialogue Text
-        value: Your funny. I gotta go this room aint gonna clean itself.
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Parenthetical
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Audio Files
-        value: '[]'
-        type: 3
-        typeString: CustomFieldType_Files
-      - title: Video File
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      - title: Sequence
-        value: 
-        type: 0
-        typeString: CustomFieldType_Text
-      conversationID: 3
-      isRoot: 0
-      isGroup: 0
-      nodeColor: 
-      delaySimStatus: 0
-      falseConditionAction: Block
-      conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
       userScript: 
@@ -3144,7 +3237,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 226
-        y: 401
+        y: 351
         width: 160
         height: 30
     - id: 14
@@ -4134,8 +4227,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 54.743835}
-    canvasZoom: 0.85000014
+    canvasScrollPosition: {x: 0, y: 14.433014}
+    canvasZoom: 0.97
   - id: 4
     fields:
     - title: Title
