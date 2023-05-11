@@ -5300,7 +5300,9 @@ MonoBehaviour:
         value: 'SetCinemachineBrain(false);
 
           Camera(Medium, Ely By K.Atienza@T-Pose
-          (player));'
+          (player));
+
+'
         type: 0
         typeString: CustomFieldType_Text
       conversationID: 8
@@ -5324,7 +5326,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 200
+        x: 201.17648
         y: 30
         width: 160
         height: 30
