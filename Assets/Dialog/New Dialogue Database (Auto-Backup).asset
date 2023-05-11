@@ -371,21 +371,77 @@ MonoBehaviour:
   - id: 6
     fields:
     - title: Name
-      value: New Item 6
+      value: Find the gold
       type: 0
       typeString: CustomFieldType_Text
-    - title: Pictures
-      value: '[]'
-      type: 3
-      typeString: CustomFieldType_Files
     - title: Description
+      value: Find the hidden gold stash around the station.
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Success Description
       value: 
       type: 0
       typeString: CustomFieldType_Text
+    - title: Failure Description
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: State
+      value: unassigned
+      type: 0
+      typeString: CustomFieldType_QuestState
     - title: Is Item
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: PostCompletionBridgeConversationKey
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: CharacterToSave
+      value: 
+      type: 5
+      typeString: CustomFieldType_Actor
+    - title: PostCompletionBridgeBark
+      value: 
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: PlayerIsRequiredToTalkToCaptainAfter
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Priority
+      value: 0
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Trackable
       value: True
       type: 2
       typeString: CustomFieldType_Boolean
+    - title: Track
+      value: True
+      type: 2
+      typeString: CustomFieldType_Boolean
+    - title: Entry Count
+      value: 2
+      type: 1
+      typeString: CustomFieldType_Number
+    - title: Entry 1 State
+      value: active
+      type: 0
+      typeString: 
+    - title: Entry 1
+      value: Look around for the gold stash
+      type: 0
+      typeString: 
+    - title: Entry 2 State
+      value: unassigned
+      type: 0
+      typeString: 
+    - title: Entry 2
+      value: Go back to Mark
+      type: 0
+      typeString: 
   locations: []
   variables:
   - id: 1
@@ -2057,6 +2113,12 @@ MonoBehaviour:
         destinationDialogueID: 28
         isConnector: 0
         priority: 2
+      - originConversationID: 3
+        originDialogueID: 0
+        destinationConversationID: 3
+        destinationDialogueID: 29
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -2628,18 +2690,85 @@ MonoBehaviour:
       userScript: 'SetQuestState("Ask Mark about Task", "success");
 
         ShowAlert("Quest
-        State Updated")'
+        State Updated");
+
+        SetQuestState("Find the gold", "active")'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 339.17432
-        y: 44.311928
+        x: 274.08
+        y: 33.934563
+        width: 160
+        height: 30
+    - id: 29
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Pictures
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Description
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Dialogue Text
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Parenthetical
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Audio Files
+        value: '[]'
+        type: 3
+        typeString: CustomFieldType_Files
+      - title: Video File
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: CustomFieldType_Text
+      conversationID: 3
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 267.73584
+        y: 84.15094
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 0}
+    canvasScrollPosition: {x: 0, y: 9.434006}
     canvasZoom: 1.06
   - id: 4
     fields:
